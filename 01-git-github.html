@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+            git--> 版本控制工具
+            (用来管理文件夹的 -- 时间节点)
+            git也可以将本地的代码传到远程仓库里面去 (github | 码云)
+
+            git --version 出现git版本号即为安装成功
+
+            安装完成过，需要进行git相关的一些配置
+            右键git bash here
+            git config --list
+            git config --global user.name "用户名"
+            git config --global user.email "邮箱号"
+
+
+            git常用的命令：
+                git status  (查看git的状态)
+                git init    (初始化一个git仓库 生成一个.git的隐藏文件夹)
+
+            将工作区的内容存放到暂存区中：
+                git add 文件名
+                git add 文件夹名
+                git add .   (把所有的文件都放到暂存区中)
+                git diff 查看工作区与暂存区的差异
+
+            暂存区的内容撤回：
+                git reset HEAD -- 文件名
+
+            查看历史区日志：
+                git log
+
+            将暂存区的内容提交到历史区
+                git commit -m "提交的具体说明"
+
+            将历史区的内容退回到指定版本 (非常重要 --> 版本控制的体现)
+                git reset --hard 版本号
+
+            流程：
+                工作区 -->  暂存区（git add 文件名） --> 历史区（git commit -m ""）
+
+            本地仓库push到远程？
+                链接远程仓库
+                git  git remote add origin git@github.com:a2645386952/lession.git
+
+                将本地仓库代码push到远程仓库中
+                
+        */
+    </script>
+</body>
+</html>
